@@ -5,6 +5,11 @@ Learn how to extract patterns and detect anomalies within geo-located data, usin
 
 You’ll see how geographical analyses enable a wide range of services, from location-based recommenders to advanced security systems, and you’ll learn how to package data-driven applications based on geographical data and expose these insights as (micro) services.
 
+### Setup
+
+Download this repository, the from a terminal run:
+``` cd tutorial; docker-compose up -d ```
+
 ### What you’ll learn—and how you can apply it
 
 By the end of this live, hands-on, online course, you’ll understand:
