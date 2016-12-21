@@ -1,9 +1,7 @@
-##Geo-Located Data
+## Geo-Located Data
 Extracting Patterns from Mobile Data using Scikit-Learn and Cassandra
 
-Learn how to extract patterns and detect anomalies within geo-located data, using machine learning clustering algorithms
-
-In this tutorial, you’ll prototype a venue recommender and a geo-fencing alerting engine, using geo-located data and machine learning clustering algorithms, practicing the skills you need to build your own geo-located data applications.
+Learn how to extract patterns and detect anomalies within geo-located data, using machine learning clustering algorithms. In this tutorial, you’ll prototype a venue recommender and a geo-fencing alerting engine, using geo-located data and machine learning clustering algorithms, practicing the skills you need to build your own geo-located data applications.
 
 You’ll see how geographical analyses enable a wide range of services, from location-based recommenders to advanced security systems, and you’ll learn how to package data-driven applications based on geographical data and expose these insights as (micro) services.
 
