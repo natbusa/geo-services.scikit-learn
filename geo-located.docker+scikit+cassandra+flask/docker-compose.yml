@@ -1,0 +1,13 @@
+version: '2'
+services:
+  jupyter:
+    build: jupyter
+    ports:
+      - "8888:8888"
+      - "5000:5000"
+    depends_on:
+      - cassandra
+    environment:
+      - CASSANDRA_NODE=cassandra
+  cassandra:
+    image: cassandra

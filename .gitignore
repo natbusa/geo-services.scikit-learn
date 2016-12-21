@@ -1,0 +1,9 @@
+!.gitkeep
+.tmp
+tmp
+.idea
+__pycache__
+*.log
+.DS_Store
+.ipynb_checkpoints
+*.err*
