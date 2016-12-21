@@ -7,8 +7,14 @@ You’ll see how geographical analyses enable a wide range of services, from loc
 
 ### Setup
 
-Download this repository, the from a terminal run:
-``` cd tutorial; docker-compose up -d ```
+Download this repository, then from a terminal run:  
+
+``` 
+cd tutorial; 
+docker-compose up -d 
+```
+### Requirements
+This tutorial requires Docker 1.12+
 
 ### What you’ll learn—and how you can apply it
 
