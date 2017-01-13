@@ -3,7 +3,6 @@ The venues id and names are taken from the following dataset.
 gowalla-dataset.zip
 from https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/locrec/gowalla-dataset.zip
 The project is being developed in the context of the SInteliGIS project financed by the Portuguese Foundation for Science and Technology (FCT) through project grant PTDC/EIA-EIA/109840/2009. 
---
 
 The checkins are available in the following dataset
 loc-gowalla_totalCheckins.txt.gz
