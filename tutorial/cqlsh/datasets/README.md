@@ -15,4 +15,4 @@ About the files in this directory:
 
 The files loc-gowalla_totalCheckins.txt and spots.txt are samples extracted from the above mentioned datasets.
 The files checkins.csv and venues.csv are generated from the given data sources. 
-In order to regenerate this files download the datasets as provided above and execute the python notebook lbsn.ipynb
+In order to download/regenerate the whole datasets execute the script `get_datasets.sh`.
