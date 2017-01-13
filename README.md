@@ -27,8 +27,7 @@ On Linux and Mac,
 If you want to find and kill the process (please do this *after* saving your work)  
 `lsof -n -i :8888`, the PID number to `kill` is the second field
 
-On Windows, please check the following:  
-http://stackoverflow.com/questions/48198/how-can-you-find-out-which-process-is-listening-on-a-port-on-windows
+On Windows, please check the following url:  http://stackoverflow.com/questions/48198
 
 ### What you’ll learn—and how you can apply it
 
