@@ -21,7 +21,8 @@ https://www.docker.com/products/overview
 Make sure you are not running other applications, when running this tutorial.
 
 In particular,
-make sure that **port 8888** is free, and no other application or local jupyter installs is running on that port.
+make sure that **port 8888** is free,   
+and no other application or local jupyter installs is running on that port.
 
 On Linux and Mac,  
 If you want to find and kill the process (please do this *after* saving your work)  
