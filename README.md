@@ -26,7 +26,7 @@ and no other application or local jupyter installs is running on that port.
 
 On Linux and Mac,  
 If you want to find and kill the process (please do this *after* saving your work)  
-`lsof -n -i :8888`, the PID number to `kill` is the second field
+`lsof -i4TCP:8888`, the PID number to `kill` is the second field
 
 On Windows, please check the following url:  http://stackoverflow.com/questions/48198
 
