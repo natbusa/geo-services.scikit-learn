@@ -25,7 +25,7 @@ https://www.docker.com/products/overview
 Most of it will be run straight from the browser, try this link [http://localhost:8888](http://localhost:8888)
 
 During the tutorial, we will also do some direct inspection of the data using the Cassandra cqlsh CLI.
-In order to run cqlsh, you have to execute cqlsh, as an attached process on the already running container as follows:
+In order to run `cqlsh`, you have to execute it as an attached process on the already running container as follows:
 
 `docker exec -it tutorial_cassandra_1 cqlsh`
 
