@@ -5,17 +5,30 @@ Learn how to extract patterns and detect anomalies within geo-located data, usin
 
 You’ll see how geographical analyses enable a wide range of services, from location-based recommenders to advanced security systems, and you’ll learn how to package data-driven applications based on geographical data and expose these insights as (micro) services.
 
-### Setup
+### Download
+Download the zip file or clone using git.
 
-Download this repository, then from a terminal run:  
+### Setup
+From a terminal, move into the download directory, and run:  
 
 ``` 
 cd tutorial; 
+docker-compose build
 docker-compose up -d 
 ```
+
 ### Requirements
 This tutorial requires Docker 1.12+
 https://www.docker.com/products/overview
+
+### Run the tutorial
+Most of it will be run straight from the browser, try this link [http://localhost:8888](http://localhost:8888)
+
+During the tutorial, we will also do some direct inspection of the data using the Cassandra cqlsh CLI.
+In order to run `cqlsh`, you have to execute it as an attached process on the already running container as follows:
+
+`docker exec -it tutorial_cassandra_1 cqlsh`
+
 
 ### Important
 Make sure you are not running other applications, when running this tutorial.
