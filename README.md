@@ -22,7 +22,7 @@ This tutorial requires Docker 1.12+
 https://www.docker.com/products/overview
 
 ### Run the tutorial
-Most of it will be run straight from the browser, try this link [http://localhost:8888](http://localhost:8888)
+Most of this tutorial will be run straight from the browser, try this link [http://localhost:8888](http://localhost:8888)
 
 During the tutorial, we will also do some direct inspection of the data using the Cassandra cqlsh CLI.
 In order to run `cqlsh`, you have to execute it as an attached process on the already running container as follows:
@@ -34,12 +34,12 @@ In order to run `cqlsh`, you have to execute it as an attached process on the al
 Make sure you are not running other applications, when running this tutorial.
 
 In particular,
-make sure that **port 8888** is free,   
+make sure that ports **8888** and **5000** are free,   
 and no other application or local jupyter installs is running on that port.
 
 On Linux and Mac,  
 If you want to find and kill the process (please do this *after* saving your work)  
-`lsof -i4TCP:8888`, the PID number to `kill` is the second field
+`lsof -i4TCP:8888`, and `lsof -i4TCP:8888`, if the port is kept by another process, then the PID (process id) number to `kill` is the second field from the provided `lsof` command.
 
 On Windows, please check the following url:  http://stackoverflow.com/questions/48198
 
