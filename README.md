@@ -35,7 +35,16 @@ This tutorial requires Docker 1.12+
 https://www.docker.com/products/overview
 
 ### Run the tutorial
-Most of this tutorial will be run straight from the browser, try this link [http://localhost:8888](http://localhost:8888)
+Most of this tutorial will be run straight from the browser,
+the link is logged on the docker container of jupyter, type the command `docker logs tutorial_jupyter_1`
+it should display something like
+```
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=c3081a64a6eba0be6c....
+```
+copy/paste it in your browser to start.
+You are all set now!
 
 During the tutorial, we will also do some direct inspection of the data using the Cassandra cqlsh CLI.
 In order to run `cqlsh`, you have to execute it as an attached process on the already running container as follows:
