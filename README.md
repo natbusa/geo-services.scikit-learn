@@ -5,6 +5,19 @@ Learn how to extract patterns and detect anomalies within geo-located data, usin
 
 You’ll see how geographical analyses enable a wide range of services, from location-based recommenders to advanced security systems, and you’ll learn how to package data-driven applications based on geographical data and expose these insights as (micro) services.
 
+### Important
+Make sure you are not running other applications, when running this tutorial.
+
+In particular,
+make sure that ports **8888** and **5000** are free,   
+and no other application or local jupyter installs is running on that port.
+
+On Linux and Mac,  
+If you want to find and kill the process (please do this *after* saving your work)  
+`lsof -i4TCP:8888`, and `lsof -i4TCP:5000`, if the port is kept by another process, then the PID (process id) number to `kill` is the second field from the provided `lsof` command.
+
+On Windows, please check the following url:  http://stackoverflow.com/questions/48198
+
 ### Download
 Download the zip file or clone using git.
 
@@ -28,20 +41,6 @@ During the tutorial, we will also do some direct inspection of the data using th
 In order to run `cqlsh`, you have to execute it as an attached process on the already running container as follows:
 
 `docker exec -it tutorial_cassandra_1 cqlsh`
-
-
-### Important
-Make sure you are not running other applications, when running this tutorial.
-
-In particular,
-make sure that ports **8888** and **5000** are free,   
-and no other application or local jupyter installs is running on that port.
-
-On Linux and Mac,  
-If you want to find and kill the process (please do this *after* saving your work)  
-`lsof -i4TCP:8888`, and `lsof -i4TCP:8888`, if the port is kept by another process, then the PID (process id) number to `kill` is the second field from the provided `lsof` command.
-
-On Windows, please check the following url:  http://stackoverflow.com/questions/48198
 
 ### What you’ll learn—and how you can apply it
 
